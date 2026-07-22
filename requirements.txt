@@ -1,0 +1,4 @@
+# Core has ZERO required dependencies (mock backend runs on stdlib only).
+# Install the extra below ONLY if you want the OpenAI-compatible backend:
+#   pip install -r requirements.txt
+openai>=1.0.0 ; extra == "openai"
